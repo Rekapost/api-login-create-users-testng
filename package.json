@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "name": "apicreateusers",
+  "version": "1.0.0",
+  "main": "response.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Initialize a new Node.js project :\r npm init -y\r npm install express body-parser\r Created package.json\r To setup express server server.js: \r npm install express\r Run the server :\r npm start\r node server.js \r http://localhost:3000/login.html",
+  "keywords": []
+}
