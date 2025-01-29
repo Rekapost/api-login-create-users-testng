@@ -1,2 +1,4 @@
-C:\Users\nreka\vscodedevops\apicreateusers\src\test\java\tests\CreateUsersTest.java
-C:\Users\nreka\vscodedevops\apicreateusers\src\test\java\tests\LoginTest.java
+C:\Users\nreka\vscodedevops\apicreateusers\src\test\java\tests\ALoginTest.java
+C:\Users\nreka\vscodedevops\apicreateusers\src\test\java\tests\BCreateUsersTest.java
+C:\Users\nreka\vscodedevops\apicreateusers\src\test\java\tests\CGetUsersListTest.java
+C:\Users\nreka\vscodedevops\apicreateusers\src\test\java\tests\DDeleteUserTest.java

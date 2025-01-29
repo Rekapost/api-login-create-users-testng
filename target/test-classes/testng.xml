@@ -4,8 +4,10 @@
     <test name="API Tests">     
         <classes>
 
-            <class name="tests.LoginTest"/> 
-            <class name="tests.CreateUsersTest"/>
+            <class name="tests.ALoginTest"/> 
+            <class name="tests.BCreateUsersTest"/>
+            <class name="tests.CGetUsersListTest"/>
+            <class name="tests.DDeleteUserTest"/>          
                       
         </classes>
     </test>

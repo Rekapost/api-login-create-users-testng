@@ -1,2 +1,4 @@
-tests\LoginTest.class
-tests\CreateUsersTest.class
+tests\BCreateUsersTest.class
+tests\ALoginTest.class
+tests\CGetUsersListTest.class
+tests\DDeleteUserTest.class

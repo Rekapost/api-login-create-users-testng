@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-28T13:48:33 CST" name="Test" finished-at="2025-01-28T13:48:36 CST" duration-ms="3077">
+  <suite started-at="2025-01-29T10:57:02 CST" name="Test" finished-at="2025-01-29T10:57:06 CST" duration-ms="4017">
     <groups>
     </groups>
-    <test started-at="2025-01-28T13:48:33 CST" name="API Tests" finished-at="2025-01-28T13:48:36 CST" duration-ms="3077">
-      <class name="tests.LoginTest">
-        <test-method signature="login()[pri:1, instance:tests.LoginTest@2893de87]" started-at="2025-01-28T13:48:33 CST" name="login" finished-at="2025-01-28T13:48:35 CST" duration-ms="2606" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- tests.LoginTest -->
-      <class name="tests.CreateUsersTest">
-        <test-method signature="createUsers()[pri:2, instance:tests.CreateUsersTest@2d9d4f9d]" started-at="2025-01-28T13:48:35 CST" name="createUsers" finished-at="2025-01-28T13:48:36 CST" depends-on-methods="tests.LoginTest.login" duration-ms="429" status="PASS">
+    <test started-at="2025-01-29T10:57:02 CST" name="API Tests" finished-at="2025-01-29T10:57:06 CST" duration-ms="4017">
+      <class name="tests.BCreateUsersTest">
+        <test-method signature="createUsers()[pri:2, instance:tests.BCreateUsersTest@3ee0fea4]" started-at="2025-01-29T10:57:05 CST" name="createUsers" finished-at="2025-01-29T10:57:05 CST" depends-on-methods="tests.ALoginTest.login" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUsers -->
-      </class> <!-- tests.CreateUsersTest -->
+      </class> <!-- tests.BCreateUsersTest -->
+      <class name="tests.CGetUsersListTest">
+        <test-method signature="getUsersAndStoreId()[pri:3, instance:tests.CGetUsersListTest@48524010]" started-at="2025-01-29T10:57:05 CST" name="getUsersAndStoreId" finished-at="2025-01-29T10:57:05 CST" depends-on-methods="tests.ALoginTest.login" duration-ms="515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUsersAndStoreId -->
+      </class> <!-- tests.CGetUsersListTest -->
+      <class name="tests.ALoginTest">
+        <test-method signature="login()[pri:1, instance:tests.ALoginTest@2ed0fbae]" started-at="2025-01-29T10:57:02 CST" name="login" finished-at="2025-01-29T10:57:05 CST" duration-ms="2622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- tests.ALoginTest -->
+      <class name="tests.DDeleteUserTest">
+        <test-method signature="deleteUser()[pri:4, instance:tests.DDeleteUserTest@4b168fa9]" started-at="2025-01-29T10:57:05 CST" name="deleteUser" finished-at="2025-01-29T10:57:06 CST" depends-on-methods="tests.CGetUsersListTest.getUsersAndStoreId" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- tests.DDeleteUserTest -->
     </test> <!-- API Tests -->
   </suite> <!-- Test -->
 </testng-results>
